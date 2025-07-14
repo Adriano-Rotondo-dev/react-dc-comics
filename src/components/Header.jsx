@@ -6,31 +6,31 @@ export default function Header() {
         <a className="" href="#">
           CHARACTERS
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           COMICS
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           MOVIES
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           TV
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           GAMES
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           COLLECTIBLES
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           VIDEOS
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           FANS
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           NEWS
         </a>
-        <a className="" href="#">
+        <a className="hover" href="#">
           SHOP
         </a>
       </nav>
