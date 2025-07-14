@@ -34,14 +34,15 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 2rem;
+  padding-left: 18rem;
 }
 .visualLinks {
   background-color: #0282f9;
-  min-height: 15vh;
+  min-height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 15rem;
 }
 .iconLink {
   display: flex;
@@ -55,17 +56,40 @@ a {
   max-width: 3rem;
 }
 .linkTabs {
+  min-height: 40vh;
   background: url("/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 15rem;
+  position: relative;
+  overflow: hidden;
 }
-.linkTabs > h4 {
+.bgLogo {
+  position: absolute;
+  background-color: transparent;
+  right: 25rem;
+  top: -5.7rem;
+  max-width: 40%;
+  opacity: 0.8;
+}
+.container {
+  max-height: max-content;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.column {
+  min-width: 1rem;
   color: white;
   padding: 5px;
 }
 .footerUl {
   color: gray;
   font-size: smaller;
+  list-style: none;
+}
+.footerUl li {
+  padding: 0.3rem;
 }
 .footerVisualLinks {
   background-color: #303030;
@@ -74,12 +98,23 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 13rem;
 }
 
 .signUp {
   margin-left: 1rem;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  font-size: large;
 }
-
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .follow {
   color: #0282f9;
 }
