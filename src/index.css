@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -54,4 +53,33 @@ a {
 }
 .iconLink > img {
   max-width: 3rem;
+}
+.linkTabs {
+  background: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkTabs > h4 {
+  color: white;
+  padding: 5px;
+}
+.footerUl {
+  color: gray;
+  font-size: smaller;
+}
+.footerVisualLinks {
+  background-color: #303030;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUp {
+  margin-left: 1rem;
+}
+
+.follow {
+  color: #0282f9;
 }
