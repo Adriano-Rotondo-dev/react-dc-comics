@@ -26,7 +26,7 @@ export default function Footer() {
               <li>Terms of Use</li>
               <li>Privacy Policy (New) </li>
               <li>Ad Choices</li>
-              <li>Advetising</li>
+              <li>Advertising</li>
               <li>Jobs</li>
               <li>Subscriptions</li>
               <li>Talent Workshops</li>
