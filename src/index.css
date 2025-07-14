@@ -1,10 +1,10 @@
-/*CSS reset*/
+/*CSS reset and font*/
 * {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-
+/* #region header */
 header {
   background-color: white;
   display: flex;
@@ -25,7 +25,9 @@ a {
   color: #1c1c1c;
   font-weight: 600;
 }
+/* #endregion header*/
 
+/* #region main */
 .content {
   background-color: #1c1c1c;
   color: white;
@@ -55,6 +57,9 @@ a {
 .iconLink > img {
   max-width: 3rem;
 }
+/* #endregion main */
+
+/* #region Footer */
 .linkTabs {
   min-height: 40vh;
   background: url("/img/footer-bg.jpg");
@@ -118,3 +123,4 @@ a {
 .follow {
   color: #0282f9;
 }
+/* #endregion Footer */
