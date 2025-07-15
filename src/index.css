@@ -5,7 +5,14 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
+/* btn */
+.btn {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.btn:active {
+  transform: scale(0.9);
+}
 /* #region header */
 header {
   background-color: white;
@@ -26,10 +33,13 @@ a {
   text-decoration: none;
   color: #1c1c1c;
   font-weight: 600;
+  cursor: pointer;
 }
+
 .navbar > a:hover {
   color: #0282f9;
 }
+
 /* #endregion header*/
 
 /* #region Jumbotron */
@@ -92,6 +102,11 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card:active {
+  transform: scale(0.9);
 }
 .cardHead {
   min-width: 10rem;
@@ -133,6 +148,7 @@ a {
 .iconLink > img {
   max-width: 3rem;
 }
+
 /* #endregion main */
 
 /* #region Footer */
