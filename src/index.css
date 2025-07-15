@@ -144,6 +144,7 @@ header {
   color: white;
   gap: 1rem;
   white-space: nowrap;
+  text-decoration: none;
 }
 .iconLink > img {
   max-width: 3rem;
