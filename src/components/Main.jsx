@@ -17,7 +17,7 @@ export default function Main() {
           </div>
         ))}
       </div>
-      <button className="loadMore btn"> LOAD MORE </button>
+      <button className="loadMore btn">LOAD MORE</button>
     </main>
   );
 }
