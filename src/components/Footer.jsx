@@ -1,4 +1,7 @@
 import ComicLinks from "./ComicLinksDC";
+import DCShopLinks from "./DCShopLinks";
+import DCLegal from "./DCLegal";
+import DCSubs from "./DCSubscriptions";
 
 export default function Footer() {
   return (
@@ -12,70 +15,19 @@ export default function Footer() {
             </ul>
             <h4>SHOP</h4>
             <ul className="shop footerUl">
-              <li>
-                <a href="#">Shop DC</a>
-              </li>
-              <li>
-                <a href="#">Shop DC Collectibles</a>
-              </li>
+              <DCShopLinks />
             </ul>
           </div>
           <div className="column">
             <h4>DC</h4>
             <ul className="DC footerUl">
-              <li>
-                <a href="#">Terms of Use</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy (New)</a>
-              </li>
-              <li>
-                <a href="#">Ad Choices</a>
-              </li>
-              <li>
-                <a href="#">Advertising</a>
-              </li>
-              <li>
-                <a href="#">Jobs</a>
-              </li>
-              <li>
-                <a href="#">Subscriptions</a>
-              </li>
-              <li>
-                <a href="#">Talent Workshops</a>
-              </li>
-              <li>
-                <a href="#">CPSC Certificates</a>
-              </li>
-              <li>
-                <a href="#">Ratings</a>
-              </li>
-              <li>
-                <a href="#">Shop Help</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
+              <DCLegal />
             </ul>
           </div>
           <div className="column">
             <h4>SITES</h4>
-            <ul className="sites footerUl">
-              <li>
-                <a href="#">DC</a>
-              </li>
-              <li>
-                <a href="#">MAD Magazine</a>
-              </li>
-              <li>
-                <a href="#">DC Kids</a>
-              </li>
-              <li>
-                <a href="#">DC Universe</a>
-              </li>
-              <li>
-                <a href="#">DC Power Visa</a>
-              </li>
+            <ul className="subscriptions footerUl">
+              <DCSubs />
             </ul>
           </div>
         </div>
