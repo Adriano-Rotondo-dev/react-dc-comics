@@ -184,6 +184,7 @@ header {
   color: gray;
   font-size: smaller;
   list-style: none;
+  padding-bottom: 1rem;
 }
 .footerUl li a {
   padding: 0.3rem;
