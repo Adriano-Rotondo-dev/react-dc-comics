@@ -28,7 +28,7 @@ header {
 .navbar {
   padding: 1rem;
 }
-a {
+.navbar a {
   padding: 1rem;
   text-decoration: none;
   color: #1c1c1c;
@@ -185,8 +185,10 @@ a {
   font-size: smaller;
   list-style: none;
 }
-.footerUl li {
+.footerUl li a {
   padding: 0.3rem;
+  text-decoration: none;
+  color: grey;
 }
 .footerVisualLinks {
   background-color: #303030;
@@ -211,6 +213,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 1rem;
 }
 .follow {
   color: #0282f9;
