@@ -2,6 +2,7 @@ import ComicLinks from "./ComicLinksDC";
 import DCShopLinks from "./DCShopLinks";
 import DCLegal from "./DCLegal";
 import DCSubs from "./DCSubscriptions";
+import Socials from "./Socials";
 
 export default function Footer() {
   return (
@@ -37,41 +38,7 @@ export default function Footer() {
         <button className="signUp btn">SIGN UP NOW!</button>
         <div className="socials">
           <h3 className="follow">FOLLOW US</h3>
-          <a href="#" className="socialIcon">
-            <img
-              className="socialIcon"
-              src="/img/footer-facebook.png"
-              alt="facebook"
-            />
-          </a>
-          <a href="#" className="socialIcon">
-            <img
-              className="socialIcon"
-              src="/img/footer-twitter.png"
-              alt="twitter"
-            />
-          </a>
-          <a href="#" className="socialIcon">
-            <img
-              className="socialIcon"
-              src="/img/footer-youtube.png"
-              alt="youtube"
-            />
-          </a>
-          <a href="#" className="socialIcon">
-            <img
-              className="socialIcon"
-              src="/img/footer-pinterest.png"
-              alt="pinterest"
-            />
-          </a>
-          <a href="#" className="socialIcon">
-            <img
-              className="socialIcon"
-              src="/img/footer-periscope.png"
-              alt="periscope"
-            />
-          </a>
+          <Socials />
         </div>
       </div>
     </footer>
