@@ -5,11 +5,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* hide scrollbar */
-body {
-  overflow: hidden;
-}
-
 /* #region header */
 header {
   background-color: white;
@@ -36,17 +31,77 @@ a {
 }
 /* #endregion header*/
 
+/* #region Jumbotron */
+.jumboContainer {
+  height: 45vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.currSeries {
+  color: white;
+  background-color: #0282f9;
+  border: solid #0282f9;
+  position: absolute;
+  z-index: 2;
+  bottom: 22rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  margin-left: 18.5rem;
+  overflow: visible;
+}
+/* #endregion Jumbotron */
+
 /* #region main */
 .content {
   background-color: #1c1c1c;
-  color: white;
   min-height: 15vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 18rem;
+  padding: 0 10rem;
 }
+
+/* #region ROWS & CARDS */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+.col {
+  padding: 3rem;
+}
+.card {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardHead {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+}
+.cardHead img {
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+.cardBody {
+  max-width: 12rem;
+}
+.cardBody h4 {
+  padding: 1rem 0;
+}
+
+/* #endregion ROWS & CARDS */
+
 .visualLinks {
   background-color: #0282f9;
   min-height: 20vh;
