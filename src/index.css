@@ -4,6 +4,12 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+
+/* hide scrollbar */
+body {
+  overflow: hidden;
+}
+
 /* #region header */
 header {
   background-color: white;
@@ -102,7 +108,7 @@ a {
 }
 .footerVisualLinks {
   background-color: #303030;
-  min-height: 10vh;
+  min-height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
