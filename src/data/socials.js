@@ -26,14 +26,4 @@ const socials = [
   },
 ];
 
-export default function Socials() {
-  return (
-    <>
-      {socials.map((link, index) => (
-        <a key={index} href={link.href}>
-          <img src={link.imgSrc} alt={link.alt} />
-        </a>
-      ))}
-    </>
-  );
-}
+export default socials;

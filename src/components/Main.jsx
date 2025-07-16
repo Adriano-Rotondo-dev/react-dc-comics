@@ -1,5 +1,5 @@
-import ComicsRows from "./Main Components/ComicsRows";
-import LoadMoreBtn from "./Btns Components/LoadMoreBtn";
+import ComicsRows from "./MainComponents/ComicsRows";
+import LoadMoreBtn from "./BtnsComponents/LoadMoreBtn";
 
 export default function Main({ comics }) {
   return (

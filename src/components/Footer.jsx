@@ -1,11 +1,17 @@
-import ComicLinks from "./Footer Components/ComicLinksDC";
-import DCShopLinks from "./Footer Components/DCShopLinks";
-import DCLegal from "./Footer Components/DCLegal";
-import DCSubs from "./Footer Components/DCSubscriptions";
-import Socials from "./Footer Components/Socials";
-import SignUpBtn from "./Btns Components/SignUpBtn";
+import ComicLinks from "./FooterComponents/ComicLinksDC";
+import DCShopLinks from "./FooterComponents/DCShopLinks";
+import DCLegal from "./FooterComponents/DCLegal";
+import DCSubs from "./FooterComponents/DCSubscriptions";
+import Socials from "./FooterComponents/Socials";
+import SignUpBtn from "./BtnsComponents/SignUpBtn";
 
-export default function Footer() {
+export default function Footer({
+  dcComicsLink,
+  dcLegal,
+  dcShop,
+  dcSubscriptions,
+  socials,
+}) {
   return (
     <footer>
       <div className="linkTabs">
@@ -13,23 +19,23 @@ export default function Footer() {
           <div className="column">
             <h4>DC COMICS</h4>
             <ul className="comics footerUl">
-              <ComicLinks />
+              <ComicLinks links={dcComicsLink} />
             </ul>
             <h4>SHOP</h4>
             <ul className="shop footerUl">
-              <DCShopLinks />
+              <DCShopLinks links={dcShop} />
             </ul>
           </div>
           <div className="column">
             <h4>DC</h4>
             <ul className="DC footerUl">
-              <DCLegal />
+              <DCLegal links={dcLegal} />
             </ul>
           </div>
           <div className="column">
             <h4>SITES</h4>
             <ul className="subscriptions footerUl">
-              <DCSubs />
+              <DCSubs links={dcSubscriptions} />
             </ul>
           </div>
         </div>
@@ -39,7 +45,7 @@ export default function Footer() {
         <SignUpBtn />
         <div className="socials">
           <h3 className="follow">FOLLOW US</h3>
-          <Socials />
+          <Socials socials={socials} />
         </div>
       </div>
     </footer>

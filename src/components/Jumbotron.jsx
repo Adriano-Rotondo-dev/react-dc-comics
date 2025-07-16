@@ -1,10 +1,12 @@
+import CurrentSeries from "./BtnsComponents/CurrentSeries";
+import JumboImg from "./HeaderComponents/JumboImg";
 export default function Jumbotron() {
   return (
-    <div className="jumboWrap">
+    <>
       <div className="jumboContainer">
-        <img src="/img/jumbotron.jpg" alt="jumbotron_DC_COMICS" />
+        <JumboImg />
       </div>
-      <button className="currSeries btn"> CURRENT SERIES </button>
-    </div>
+      <CurrentSeries />
+    </>
   );
 }

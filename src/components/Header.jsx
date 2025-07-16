@@ -1,10 +1,11 @@
-import Navbar from "./Header Components/Navbar";
+import Logo from "./HeaderComponents/Logo";
+import Navbar from "./HeaderComponents/Navbar";
 
-export default function Header() {
+export default function Header({ navbarLinks }) {
   return (
     <header>
-      <img className="logo" src="/img/dc-logo.png" alt="dc-logo" />
-      <Navbar />
+      <Logo />
+      <Navbar links={navbarLinks} />
     </header>
   );
 }

@@ -12,14 +12,4 @@ const legal = [
   "Contact Us",
 ];
 
-export default function DCLegal() {
-  return (
-    <>
-      {legal.map((link, index) => (
-        <li key={index}>
-          <a href="#">{link}</a>
-        </li>
-      ))}
-    </>
-  );
-}
+export default legal;
