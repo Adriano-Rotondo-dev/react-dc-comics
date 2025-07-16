@@ -4,6 +4,7 @@ import DCLegal from "./FooterComponents/DCLegal";
 import DCSubs from "./FooterComponents/DCSubscriptions";
 import Socials from "./FooterComponents/Socials";
 import SignUpBtn from "./BtnsComponents/SignUpBtn";
+import LogoBig from "./FooterComponents/LogoBig";
 
 export default function Footer({
   dcComicsLink,
@@ -17,34 +18,21 @@ export default function Footer({
       <div className="linkTabs">
         <div className="container">
           <div className="column">
-            <h4>DC COMICS</h4>
-            <ul className="comics footerUl">
-              <ComicLinks links={dcComicsLink} />
-            </ul>
-            <h4>SHOP</h4>
-            <ul className="shop footerUl">
-              <DCShopLinks links={dcShop} />
-            </ul>
+            <ComicLinks links={dcComicsLink} />
+            <DCShopLinks links={dcShop} />
           </div>
           <div className="column">
-            <h4>DC</h4>
-            <ul className="DC footerUl">
-              <DCLegal links={dcLegal} />
-            </ul>
+            <DCLegal links={dcLegal} />
           </div>
           <div className="column">
-            <h4>SITES</h4>
-            <ul className="subscriptions footerUl">
-              <DCSubs links={dcSubscriptions} />
-            </ul>
+            <DCSubs links={dcSubscriptions} />
           </div>
         </div>
-        <img className="bgLogo" src="/img/dc-logo-bg.png" alt="dc-logo-bg" />
+        <LogoBig />
       </div>
       <div className="footerVisualLinks">
         <SignUpBtn />
         <div className="socials">
-          <h3 className="follow">FOLLOW US</h3>
           <Socials socials={socials} />
         </div>
       </div>

@@ -1,11 +1,14 @@
 export default function ComicLinks({ links }) {
   return (
     <>
-      {links.map((link, index) => (
-        <li key={index}>
-          <a href="#">{link}</a>
-        </li>
-      ))}
+      <h4>DC COMICS</h4>
+      <ul className="comics footerUl">
+        {links.map((link, index) => (
+          <li key={index}>
+            <a href="#">{link}</a>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

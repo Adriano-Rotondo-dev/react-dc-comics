@@ -1,11 +1,14 @@
 export default function DCShopLinks({ links }) {
   return (
     <>
-      {links.map((link, index) => (
-        <li key={index}>
-          <a href="#">{link}</a>
-        </li>
-      ))}
+      <h4>SHOP</h4>
+      <ul className="shop footerUl">
+        {links.map((link, index) => (
+          <li key={index}>
+            <a href="#">{link}</a>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

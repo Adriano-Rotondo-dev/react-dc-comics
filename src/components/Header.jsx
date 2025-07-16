@@ -1,4 +1,4 @@
-import Logo from "./HeaderComponents/Logo";
+import Logo from "./HeaderComponents/LogoSm";
 import Navbar from "./HeaderComponents/Navbar";
 
 export default function Header({ navbarLinks }) {
