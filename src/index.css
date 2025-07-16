@@ -107,10 +107,10 @@ main {
   flex-direction: column;
   transition: transform 0.2s ease;
 }
-
-.card:active {
-  transform: scale(0.9);
+.card:hover {
+  transform: scale(1.2);
 }
+
 .cardHead {
   min-width: 10rem;
   height: 10rem;
