@@ -1,8 +1,8 @@
-import ComicLinks from "./ComicLinksDC";
-import DCShopLinks from "./DCShopLinks";
-import DCLegal from "./DCLegal";
-import DCSubs from "./DCSubscriptions";
-import Socials from "./Socials";
+import ComicLinks from "./Footer Components/ComicLinksDC";
+import DCShopLinks from "./Footer Components/DCShopLinks";
+import DCLegal from "./Footer Components/DCLegal";
+import DCSubs from "./Footer Components/DCSubscriptions";
+import Socials from "./Footer Components/Socials";
 
 export default function Footer() {
   return (
