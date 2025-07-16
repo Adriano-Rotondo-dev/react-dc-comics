@@ -3,6 +3,7 @@ import DCShopLinks from "./Footer Components/DCShopLinks";
 import DCLegal from "./Footer Components/DCLegal";
 import DCSubs from "./Footer Components/DCSubscriptions";
 import Socials from "./Footer Components/Socials";
+import SignUpBtn from "./Btns Components/SignUpBtn";
 
 export default function Footer() {
   return (
@@ -35,7 +36,7 @@ export default function Footer() {
         <img className="bgLogo" src="/img/dc-logo-bg.png" alt="dc-logo-bg" />
       </div>
       <div className="footerVisualLinks">
-        <button className="signUp btn">SIGN UP NOW!</button>
+        <SignUpBtn />
         <div className="socials">
           <h3 className="follow">FOLLOW US</h3>
           <Socials />

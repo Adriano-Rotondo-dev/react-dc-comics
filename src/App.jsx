@@ -1,3 +1,4 @@
+import comics from "./data/comics";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
 import Main from "./components/Main";
@@ -9,7 +10,7 @@ function App() {
     <>
       <Header />
       <Jumbotron />
-      <Main />
+      <Main comics={comics} />
       <ShopLinks />
       <Footer />
     </>

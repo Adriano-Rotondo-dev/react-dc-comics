@@ -1,15 +1,11 @@
-import comics from "../data/comics";
-import Comics from "./Main Components/ComicsRows";
+import ComicsRows from "./Main Components/ComicsRows";
+import LoadMoreBtn from "./Btns Components/LoadMoreBtn";
 
-export default function Main() {
+export default function Main({ comics }) {
   return (
     <main>
-      <div className="content row">
-        {comics.map((comic) => (
-          <Comics comic={comic} key={comic.id} />
-        ))}
-      </div>
-      <button className="loadMore btn">LOAD MORE</button>
+      <ComicsRows comics={comics} />
+      <LoadMoreBtn />
     </main>
   );
 }
