@@ -69,10 +69,14 @@ header {
 /* #endregion Jumbotron */
 
 /* #region main */
-.content {
+main {
   background-color: #1c1c1c;
   min-height: 15vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .loadMore {
   background-color: #0282f9;
@@ -81,9 +85,8 @@ header {
   color: white;
   font-weight: 700;
   font-size: large;
-  position: absolute;
-  right: 54rem;
-  bottom: -12rem;
+  position: relative;
+  bottom: 1rem;
 }
 /* #region ROWS & CARDS */
 .row {
